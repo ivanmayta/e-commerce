@@ -1,0 +1,26 @@
+{
+    "name": "DUJII.COM",
+    "description": "Ropa para hombre, mujer y unisex | Moda por temporada, ocasión y edad | Envíos rápidos – Compra online.",
+    "address": "Arequipa, Perú",
+    "phone": "+51 987654321",
+    "shipping": "Envío a todo el Perú",
+    "website": "https://www.dujii.com",
+    "social": [
+        {
+            "name": "Facebook",
+            "url": "https://www.facebook.com/dujii.com"
+        },
+        {
+            "name": "Instagram",
+            "url": "https://www.instagram.com/dujii.com"
+        },
+        {
+            "name": "Tiktok",
+            "url": "https://www.tiktok.com/@dujii.com"
+        },
+        {
+            "name": "Whatsapp",
+            "url": "https://wa.me/51987654321"
+        }
+    ]
+}
