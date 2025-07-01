@@ -49,7 +49,7 @@ export default function CartSheet({ children }: CartSheetProps) {
                 <div className="relative">
                     {children}
                     {totalItems > 0 && (
-                        <span className="absolute -top-2 -right-2 bg-primary text-primary-foreground text-xs font-bold rounded-full h-5 w-5 flex items-center justify-center">
+                        <span className="absolute -top-2 -right-2 bg-rose-200 text-black text-xs font-bold rounded-full h-5 w-5 flex items-center justify-center">
                             {totalItems}
                         </span>
                     )}

@@ -2,8 +2,10 @@
 import { products } from "@/data/productos"
 import ProductCard from "../ui/product-card"
 import { SearchProduct } from "../search-product"
+import { useCartStore } from "@/hooks/store"
 
 export default function Products() {
+    const { addItem } = useCartStore()
     return (
         <>
             <SearchProduct
@@ -18,7 +20,11 @@ export default function Products() {
                             <ProductCard.Root key={product.id} value={product}>
                                 <ProductCard.Image />
                                 <ProductCard.Information />
-                                <ProductCard.Button onClick={() => {}} />
+                                <ProductCard.Button
+                                    onClick={() => {
+                                        addItem(product)
+                                    }}
+                                />
                             </ProductCard.Root>
                         ))}
                     </div>

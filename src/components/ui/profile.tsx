@@ -157,16 +157,11 @@ interface ProfileCartButtonProps {
 }
 
 const ProfileCartButton = ({
-    onClick,
     className = "",
     icon,
 }: ProfileCartButtonProps) => (
-    <div className={`absolute top-4 right-3 ${className}`}>
-        <CartSheet>
-            <button onClick={onClick}>
-                {icon || <ShoppingCart className="size-6" />}
-            </button>
-        </CartSheet>
+    <div className={`absolute top-4 right-3 cursor-pointer ${className}`}>
+        <CartSheet>{icon || <ShoppingCart className="size-6" />}</CartSheet>
     </div>
 )
 

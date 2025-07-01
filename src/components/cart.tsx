@@ -52,7 +52,7 @@ export default function Cart() {
                         {items.map((item) => (
                             <div
                                 key={item.product.id}
-                                className="flex gap-3 py-2 border-b"
+                                className="flex gap-3 py-2 border-b border-rose-200/20"
                             >
                                 <div className="relative h-16 w-16 flex-shrink-0">
                                     <Image
@@ -70,13 +70,13 @@ export default function Cart() {
                                         {item.product.name}
                                     </h3>
                                     <p className="text-sm text-muted-foreground">
-                                        s/.{item.product.price.toFixed(2)}
+                                        s/.{item.product.price}
                                     </p>
-                                    <div className="flex items-center gap-2 mt-1">
+                                    <div className="flex items-center gap-2 mt-1 ">
                                         <Button
                                             variant="outline"
                                             size="icon"
-                                            className="h-6 w-6"
+                                            className="h-6 w-6 border-rose-200/40"
                                             onClick={() =>
                                                 updateQuantity(
                                                     item.product.id,
@@ -87,7 +87,6 @@ export default function Cart() {
                                             <Minus className="h-3 w-3" />
                                         </Button>
                                         <input
-                                            type="number"
                                             value={item.quantity}
                                             onChange={(e) =>
                                                 updateQuantity(
@@ -102,7 +101,7 @@ export default function Cart() {
                                         <Button
                                             variant="outline"
                                             size="icon"
-                                            className="h-6 w-6"
+                                            className="h-6 w-6 border-rose-200/40"
                                             onClick={() =>
                                                 updateQuantity(
                                                     item.product.id,
@@ -139,7 +138,7 @@ export default function Cart() {
 
                     <div className="flex flex-col gap-2 mt-4">
                         <Button
-                            className="w-full"
+                            className="text-green-400 flex items-center gap-2 border rounded-md px-4 py-0.5"
                             onClick={handleWhatsAppCheckout}
                         >
                             Pedir via WhatsApp
@@ -147,7 +146,7 @@ export default function Cart() {
                         </Button>
                         <Button
                             variant="outline"
-                            className="w-full"
+                            className="w-full border-rose-200/40"
                             onClick={clearCart}
                         >
                             Limpiar carrito

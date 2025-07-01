@@ -6,7 +6,7 @@ export const products = [
         description: "no se como es ",
         image_url:
             "https://res.cloudinary.com/djpp5zuhc/image/upload/v1747110434/izimport/q53y6zygjzqlzi5idsdw.jpg",
-        price: "12",
+        price: 12,
         perfil_id: "13",
     },
     {
@@ -16,7 +16,7 @@ export const products = [
         description: "sss",
         image_url:
             "https://res.cloudinary.com/djpp5zuhc/image/upload/v1747110659/izimport/mhesy7oofr6njtyqm0ni.png",
-        price: "2",
+        price: 2,
         perfil_id: "13",
     },
     {
@@ -26,7 +26,7 @@ export const products = [
         description: "i dont know",
         image_url:
             "https://res.cloudinary.com/djpp5zuhc/image/upload/v1748381163/izimport/gqw1s4estonfa4ulddpt.png",
-        price: "23",
+        price: 23,
         perfil_id: "13",
     },
     {
@@ -36,7 +36,7 @@ export const products = [
         description: "Majestic Mountain Graphic T-Shirt",
         image_url:
             "https://res.cloudinary.com/djpp5zuhc/image/upload/v1748576849/izimport/u92fipf6f8egzwsi3ud5.jpg",
-        price: "50",
+        price: 50,
         perfil_id: "14",
     },
     {
@@ -46,7 +46,7 @@ export const products = [
         description: "Classic Red Pullover Hoodie",
         image_url:
             "https://res.cloudinary.com/djpp5zuhc/image/upload/v1748576867/izimport/oos0ulnnslscrewwgue2.jpg",
-        price: "44",
+        price: 44,
         perfil_id: "14",
     },
     {
@@ -56,7 +56,7 @@ export const products = [
         description: "Classic Comfort Fit Joggers",
         image_url:
             "https://res.cloudinary.com/djpp5zuhc/image/upload/v1748576896/izimport/f2wnywg2ip1mzrvle3hc.jpg",
-        price: "23",
+        price: 23,
         perfil_id: "14",
     },
     {
@@ -66,7 +66,7 @@ export const products = [
         description: "importa from here",
         image_url:
             "https://res.cloudinary.com/djpp5zuhc/image/upload/v1748651888/izimport/tipqrzpzdvjoho9okvnq.jpg",
-        price: "33",
+        price: 33,
         perfil_id: "14",
     },
     {
@@ -76,7 +76,7 @@ export const products = [
         description: "Majestic Mountain Graphic T-Shirt",
         image_url:
             "https://res.cloudinary.com/djpp5zuhc/image/upload/v1748961892/izimport/bosjim1voe9ufz8qe160.webp",
-        price: "44",
+        price: 44,
         perfil_id: "16",
     },
     {
@@ -86,7 +86,7 @@ export const products = [
         description: "IDK",
         image_url:
             "https://res.cloudinary.com/djpp5zuhc/image/upload/v1750278176/izimport/w7dkhuauxnnbzkh0fwcm.jpg",
-        price: "23",
+        price: 23,
         perfil_id: "17",
     },
     {
@@ -96,7 +96,7 @@ export const products = [
         description: "pretty",
         image_url:
             "https://res.cloudinary.com/djpp5zuhc/image/upload/v1750880543/izimport/zwpb4uyafq1rmmk0m02s.jpg",
-        price: "122",
+        price: 122,
         perfil_id: "17",
     },
     {
@@ -106,7 +106,7 @@ export const products = [
         description: "asdf",
         image_url:
             "https://res.cloudinary.com/djpp5zuhc/image/upload/v1750896932/izimport/ntc7tmpd45ijb4zy13ac.jpg",
-        price: "2",
+        price: 2,
         perfil_id: "14",
     },
     {
@@ -116,7 +116,7 @@ export const products = [
         description: "asdf",
         image_url:
             "https://res.cloudinary.com/djpp5zuhc/image/upload/v1750897021/izimport/ivjjatojhda3ebparbm3.png",
-        price: "3",
+        price: 3,
         perfil_id: "14",
     },
     {
@@ -126,7 +126,7 @@ export const products = [
         description: "sd",
         image_url:
             "https://res.cloudinary.com/djpp5zuhc/image/upload/v1750899280/izimport/jtpeae4tk7jzefss1576.jpg",
-        price: "3",
+        price: 3,
         perfil_id: "16",
     },
     {
@@ -136,7 +136,7 @@ export const products = [
         description: "dfg",
         image_url:
             "https://res.cloudinary.com/djpp5zuhc/image/upload/v1750899307/izimport/gc57soupcracjuh9lmsu.jpg",
-        price: "5",
+        price: 5,
         perfil_id: "14",
     },
     {
@@ -146,7 +146,7 @@ export const products = [
         description: "asdas",
         image_url:
             "https://res.cloudinary.com/djpp5zuhc/image/upload/v1750969244/izimport/gxs20s28o3tyt39rxq3u.jpg",
-        price: "2",
+        price: 2,
         perfil_id: "14",
     },
     {
@@ -156,7 +156,7 @@ export const products = [
         description: "sdfsdf",
         image_url:
             "https://res.cloudinary.com/djpp5zuhc/image/upload/v1750969793/izimport/ltgvdb9tplnoceotvyyx.png",
-        price: "2",
+        price: 2,
         perfil_id: "14",
     },
     {
@@ -166,7 +166,7 @@ export const products = [
         description: "Majestic Mountain Graphic T-Shirt",
         image_url:
             "https://res.cloudinary.com/djpp5zuhc/image/upload/v1750973528/izimport/n6fk8ia0ithuitm2gxi0.jpg",
-        price: "34",
+        price: 34,
         perfil_id: "14",
     },
     {
@@ -176,7 +176,7 @@ export const products = [
         description: "Majestic Mountain Graphic T-Shirt",
         image_url:
             "https://res.cloudinary.com/djpp5zuhc/image/upload/v1750978057/izimport/yzbohncxvhxcuby3vqmw.png",
-        price: "44",
+        price: 44,
         perfil_id: "16",
     },
 ]
