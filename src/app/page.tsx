@@ -2,14 +2,19 @@ import HeroSection from "@/components/sections/hero"
 import { noto_sans } from "@/fonts/fonts"
 
 import Products from "@/components/sections/products"
-export default function Home() {
+import { getProductFromGoogleSheet } from "@/data/api"
+export default async function Home() {
+    const products = await getProductFromGoogleSheet()
+
     return (
         <>
             <header></header>
             <main className={`${noto_sans.className}`}>
                 <HeroSection />
-
-                <Products />
+                {/* <div className="max-w-5xl mx-auto">
+                    {JSON.stringify(products)}
+                </div> */}
+                <Products products={products} />
             </main>
 
             <footer className=" top-auto row-start-3 flex gap-[24px] flex-wrap items-center justify-center">

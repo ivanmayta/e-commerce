@@ -1,10 +1,11 @@
 "use client"
-import { products } from "@/data/productos"
+//import { products as mockProducts } from "@/data/productos"
 import ProductCard from "../ui/product-card"
 import { SearchProduct } from "../search-product"
 import { useCartStore } from "@/hooks/store"
+import { Product } from "@/types/types"
 
-export default function Products() {
+export default function Products({ products }: { products: Product[] }) {
     const { addItem } = useCartStore()
     return (
         <>
