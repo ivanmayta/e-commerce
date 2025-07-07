@@ -90,7 +90,7 @@ const ProfileSocialLinks = ({
                 rel="noopener noreferrer"
                 className={
                     link.label
-                        ? "text-green-400 flex items-center gap-2 border rounded-xl px-4 py-0.5"
+                        ? "text-green-400 flex items-center gap-2 border rounded-lg px-4 py-0.5 hover:bg-green-500/70 hover:text-white transition-colors cursor-pointer"
                         : ""
                 }
             >
@@ -138,14 +138,9 @@ const ProfileDescription = ({
     icon,
     className = "",
 }: ProfileDescriptionProps) => (
-    <div
-        className={cn(
-            "flex flex-col gap-2 text-center md:text-left",
-            className
-        )}
-    >
+    <div className={cn("flex flex-col text-center md:text-left", className)}>
         {icon && icon}
-        <p className="max-w-[74ch] text-xs flex-1">{children}</p>
+        <p className="max-w-[64ch] text-sm flex-1 text-pretty">{children}</p>
     </div>
 )
 
@@ -161,7 +156,11 @@ const ProfileCartButton = ({
     icon,
 }: ProfileCartButtonProps) => (
     <div className={`absolute top-4 right-3 cursor-pointer ${className}`}>
-        <CartSheet>{icon || <ShoppingCart className="size-6" />}</CartSheet>
+        <CartSheet>
+            {icon || (
+                <ShoppingCart className="size-6 hover:text-rose-300 transition-colors cursor-pointer" />
+            )}
+        </CartSheet>
     </div>
 )
 

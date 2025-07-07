@@ -76,7 +76,7 @@ export default function Cart() {
                                         <Button
                                             variant="outline"
                                             size="icon"
-                                            className="h-6 w-6 border-rose-200/40"
+                                            className="h-6 w-6 border-rose-200/40 hover:text-blue-400 hover:border-blue-400 transition-colors cursor-pointer"
                                             onClick={() =>
                                                 updateQuantity(
                                                     item.product.id,
@@ -101,7 +101,7 @@ export default function Cart() {
                                         <Button
                                             variant="outline"
                                             size="icon"
-                                            className="h-6 w-6 border-rose-200/40"
+                                            className="h-6 w-6 border-rose-200/40 hover:text-blue-400 hover:border-blue-400 transition-colors cursor-pointer"
                                             onClick={() =>
                                                 updateQuantity(
                                                     item.product.id,
@@ -114,7 +114,7 @@ export default function Cart() {
                                         <Button
                                             variant="ghost"
                                             size="icon"
-                                            className="h-6 w-6 ml-auto text-destructive"
+                                            className="h-6 w-6 ml-auto text-destructive hover:text-rose-500 transition-colors cursor-pointer"
                                             onClick={() =>
                                                 removeItem(item.product.id)
                                             }
@@ -138,7 +138,7 @@ export default function Cart() {
 
                     <div className="flex flex-col gap-2 mt-4">
                         <Button
-                            className="text-green-400 flex items-center gap-2 border rounded-md px-4 py-0.5"
+                            className="text-green-400 flex items-center gap-2 border rounded-md px-4 py-0.5 hover:bg-green-500/65 hover:text-white transition-colors cursor-pointer"
                             onClick={handleWhatsAppCheckout}
                         >
                             Pedir via WhatsApp
@@ -146,7 +146,7 @@ export default function Cart() {
                         </Button>
                         <Button
                             variant="outline"
-                            className="w-full border-rose-200/40"
+                            className="w-full border-rose-200/40 hover:bg-rose-500/65 hover:text-white transition-colors cursor-pointer"
                             onClick={clearCart}
                         >
                             Limpiar carrito
