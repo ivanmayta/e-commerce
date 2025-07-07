@@ -1,10 +1,10 @@
 {
-    "name": "Ecommerce OnDemand",
-    "description": "Ropa para hombre, mujer y unisex | Moda por temporada, ocasión y edad | Envíos rápidos – Compra online.",
+    "name": "iverse.store",
+    "description": "Static Web aplication that get products from google sheets and is revalidated with AppScript extension",
     "address": "Lima, Perú",
     "phone": "+51 999 999 999",
-    "shipping": "Envío a todo el Perú",
-    "website": "https://iverse.dev",
+    "shipping": "Free shipping",
+    "website": "https://iverse.store",
     "social": [
         {
             "name": "Facebook",

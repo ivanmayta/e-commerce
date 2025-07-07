@@ -12,15 +12,21 @@ export default function Hero({ ...props }) {
     const socialLinks = [
         {
             href: social[0].url,
-            icon: <Facebook className="size-8" />,
+            icon: (
+                <Facebook className="size-8 hover:text-blue-400 transition-colors cursor-pointer" />
+            ),
         },
         {
             href: social[1].url,
-            icon: <Instagram className="size-8" />,
+            icon: (
+                <Instagram className="size-8 hover:text-rose-400 transition-colors cursor-pointer" />
+            ),
         },
         {
             href: social[2].url,
-            icon: <Tiktok className="size-8" />,
+            icon: (
+                <Tiktok className="size-8 hover:text-gray-400 transition-colors cursor-pointer" />
+            ),
         },
         {
             href: social[3].url,
@@ -39,10 +45,10 @@ export default function Hero({ ...props }) {
         <Profile {...props}>
             <Profile.CartButton />
             <Profile.Image
-                src="/next.svg"
+                src="/iverse.svg"
                 alt="logo"
-                width={100}
-                height={100}
+                width={125}
+                height={125}
             />
             <div className="flex-1">
                 <div className="flex gap-2 w-full flex-col items-center md:items-start md:flex-row text-center md:text-left ">
