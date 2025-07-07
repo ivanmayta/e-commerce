@@ -138,7 +138,7 @@ export default function Cart() {
 
                     <div className="flex flex-col gap-2 mt-4">
                         <Button
-                            className="text-green-400 flex items-center gap-2 border rounded-md px-4 py-0.5 hover:bg-green-500/65 hover:text-white transition-colors cursor-pointer"
+                            className="text-green-500 flex items-center gap-2 border rounded-md px-4 py-0.5 hover:bg-green-600 hover:text-white transition-colors cursor-pointer"
                             onClick={handleWhatsAppCheckout}
                         >
                             Pedir via WhatsApp
@@ -146,7 +146,7 @@ export default function Cart() {
                         </Button>
                         <Button
                             variant="outline"
-                            className="w-full border-rose-200/40 hover:bg-rose-500/65 hover:text-white transition-colors cursor-pointer"
+                            className="w-full border-rose-200/40 hover:bg-rose-600 hover:text-white transition-colors cursor-pointer"
                             onClick={clearCart}
                         >
                             Limpiar carrito

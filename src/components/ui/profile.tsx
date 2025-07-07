@@ -90,7 +90,7 @@ const ProfileSocialLinks = ({
                 rel="noopener noreferrer"
                 className={
                     link.label
-                        ? "text-green-400 flex items-center gap-2 border rounded-lg px-4 py-0.5 hover:bg-green-500/70 hover:text-white transition-colors cursor-pointer"
+                        ? "text-green-400 flex items-center gap-2 border rounded-lg px-4 py-0.5 hover:bg-green-600 hover:text-white transition-colors cursor-pointer"
                         : ""
                 }
             >

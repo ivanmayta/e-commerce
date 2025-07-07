@@ -23,10 +23,10 @@ export function SearchProduct<T>({
     const filteredItems = filteredProductsBySearch(items as Product[])
 
     return (
-        <section className={`flex flex-col gap-2  max-w-5xl mx-auto  py-4`}>
+        <section className={`flex flex-col gap-2  max-w-5xl mx-auto  py-4 px-4 md:px-0`}>
             <div className="flex gap-2 border-t-1 border-b-1 border-rose-200/20 py-4 items-center md:flex-row flex-col-reverse ">
-                <div className={`flex-1 flex gap-2 font-medium text-sm `}>
-                    <span className="text-base">Productos</span>
+                <div className={`md:flex-1 w-full flex-none flex gap-2 font-medium text-sm `}>
+                    <span className="">Productos</span>
                     <div className="bg-foreground text-black rounded-2xl px-2 border border-gray-300 flex items-center">
                         Todos
                     </div>
@@ -37,7 +37,7 @@ export function SearchProduct<T>({
                         Blusas
                     </div>
                 </div>
-                <div className="flex-1 relative">
+                <div className="md:flex-1 w-full flex-none relative">
                     <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-5 h-5" />
                     <input
                         type="text"
@@ -46,7 +46,7 @@ export function SearchProduct<T>({
                         onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
                             setFilters({ ...filters, search: e.target.value })
                         }
-                        className="w-full pl-10 pr-4 py-1 border border-gray-200 rounded-lg focus:outline-none focus:ring-1 focus:ring-pink-200 focus:border-pink-200 transition-all duration-200"
+                        className="w-full md:text-sm text-base pl-10 pr-4 py-1 border border-gray-200 rounded-lg focus:outline-none focus:ring-1 focus:ring-pink-200 focus:border-pink-200 transition-all duration-200"
                     />
                 </div>
             </div>
