@@ -1,4 +1,5 @@
-import { SVGProps } from "react"
+import React from "react"
+import type { SVGProps } from "react"
 
 export function Instagram(props: SVGProps<SVGSVGElement>) {
     return (
@@ -9,47 +10,16 @@ export function Instagram(props: SVGProps<SVGSVGElement>) {
             viewBox="0 0 24 24"
             {...props}
         >
-            <circle cx={17} cy={7} r={1.5} fill="currentColor" fillOpacity={0}>
-                <animate
-                    fill="freeze"
-                    attributeName="fill-opacity"
-                    begin="1.3s"
-                    dur="0.15s"
-                    values="0;1"
-                ></animate>
-            </circle>
             <g
                 fill="none"
                 stroke="currentColor"
                 strokeLinecap="round"
                 strokeLinejoin="round"
-                strokeWidth={2}
+                strokeWidth={1.5}
+                color="currentColor"
             >
-                <path
-                    strokeDasharray={72}
-                    strokeDashoffset={72}
-                    d="M16 3c2.76 0 5 2.24 5 5v8c0 2.76 -2.24 5 -5 5h-8c-2.76 0 -5 -2.24 -5 -5v-8c0 -2.76 2.24 -5 5 -5h4Z"
-                >
-                    <animate
-                        fill="freeze"
-                        attributeName="stroke-dashoffset"
-                        dur="0.6s"
-                        values="72;0"
-                    ></animate>
-                </path>
-                <path
-                    strokeDasharray={28}
-                    strokeDashoffset={28}
-                    d="M12 8c2.21 0 4 1.79 4 4c0 2.21 -1.79 4 -4 4c-2.21 0 -4 -1.79 -4 -4c0 -2.21 1.79 -4 4 -4"
-                >
-                    <animate
-                        fill="freeze"
-                        attributeName="stroke-dashoffset"
-                        begin="0.7s"
-                        dur="0.6s"
-                        values="28;0"
-                    ></animate>
-                </path>
+                <path d="M2.5 12c0-4.478 0-6.718 1.391-8.109S7.521 2.5 12 2.5c4.478 0 6.718 0 8.109 1.391S21.5 7.521 21.5 12c0 4.478 0 6.718-1.391 8.109S16.479 21.5 12 21.5c-4.478 0-6.718 0-8.109-1.391S2.5 16.479 2.5 12"></path>
+                <path d="M16.5 12a4.5 4.5 0 1 1-9 0a4.5 4.5 0 0 1 9 0m1.008-5.5h-.01"></path>
             </g>
         </svg>
     )
