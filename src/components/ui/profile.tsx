@@ -90,7 +90,7 @@ const ProfileSocialLinks = ({
                 rel="noopener noreferrer"
                 className={
                     link.label
-                        ? "text-green-400 flex items-center gap-2 border rounded-lg px-4 py-0.5 hover:bg-green-600 hover:text-white transition-colors cursor-pointer"
+                        ? "text-green-500 flex items-center gap-2 px-4 py-0.5 border  rounded-lg cursor-pointer  hover:outline transition-all duration-[100ms] ease-[cubic-bezier(0.19,1,0.22,1)] shadow-inner hover:shadow-[inset_0_0_3px_rgba(34,197,94,0.5),0_0_3px_rgba(34,197,94,0.2)] hover:outline-offset-[2px] hover:outline-green-500/0 hover:border-green-500 hover:text-shadow-[1px_1px_2px_#166534]"
                         : ""
                 }
             >

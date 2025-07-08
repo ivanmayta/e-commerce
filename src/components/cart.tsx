@@ -146,7 +146,7 @@ export default function Cart() {
                         </Button>
                         <Button
                             variant="outline"
-                            className="w-full border-rose-200/40 hover:bg-rose-600 hover:text-white transition-colors cursor-pointer"
+                            className="w-full border-rose-200/40 hover:bg-rose-00 hover:text-white transition-colors cursor-pointer"
                             onClick={clearCart}
                         >
                             Limpiar carrito
