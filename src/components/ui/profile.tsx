@@ -81,7 +81,7 @@ const ProfileSocialLinks = ({
     links,
     className = "",
 }: ProfileSocialLinksProps) => (
-    <div className={`flex gap-2 items-center ${className}`}>
+    <div className={`group flex gap-2 items-center ${className}`}>
         {links.map((link, index) => (
             <a
                 key={index}

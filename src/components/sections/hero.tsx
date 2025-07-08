@@ -30,7 +30,9 @@ export default function Hero({ ...props }) {
         },
         {
             href: social[3].url,
-            icon: <Whatsapp className="size-7" />,
+            icon: (
+                <Whatsapp className="size-7 group-hover:scale-[103%] transition-transform duration-200 ease-in-out" />
+            ),
             label: "Mensaje",
         },
     ]
